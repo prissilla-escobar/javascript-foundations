@@ -3,20 +3,20 @@ var {createVampire, drink, findBatLovers, encounterDeliciousVictim, inquirePlace
 
 describe('Vampire', function() {
 
-  it.skip('should create a vampire', function() {
+  it('should create a vampire', function() {
     var vampire = createVampire('Jhun');
 
     assert.equal(vampire.name, 'Jhun');
   });
 
-  it.skip('should have a pet bat as a default', function() {
+  it('should have a pet bat as a default', function() {
     var vampire = createVampire('Brittany');
 
     assert.equal(vampire.name, 'Brittany');
     assert.equal(vampire.pet, 'bat');
   });
 
-  it.skip('should be able to take an argument for pet', function() {
+  it('should be able to take an argument for pet', function() {
     var vampire = createVampire('Jeff', 'fox');
     var vampira = createVampire('Esme', 'armadillo');
 
