@@ -1,7 +1,15 @@
 
+function createVampire(name, pet) {
+  console.log(name, pet)
+  return {
+   name:name,
+   pet:pet
+  } 
+}
+
 
 module.exports = {
-  // createVampire, 
+  createVampire, 
   // drink, 
   // findBatLovers, 
   // encounterDeliciousVictim, 
